@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>Faiza Mutesi - Software Developer</title>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">Faiza M.</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="Mutesi_Faiza_CV.pdf" download="Faiza-Mutesi-CV.pdf">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="theme-toggle" onclick="toggleTheme()">🌓 Theme</button>
+        </div>
+    </nav>
+
+    <!-- Mobile Toggle Button -->
+    <button class="mobile-toggle" id="mobileToggle">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </button>
+
+    <!-- Mobile Menu -->
+    <nav class="mobile-menu" id="mobileMenu">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="Mutesi_Faiza_CV.pdf" download="Faiza-Mutesi-CV.pdf">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Background Overlay -->
+    <div class="overlay" id="overlay"></div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="particles"></div>
+        <div class="hero-content">
+            <h1>Faiza Mutesi</h1>
+            <div class="typing-text" id="typing-text"></div>
+            <p style="color: var(--gray); font-size: 1.1rem; margin-bottom: 2rem;">
+                Full-stack developer who turns ideas into interactive experiences—one line of code at a time.
+                I design and build smart, user-friendly software solutions for real-world problems,
+                with a splash of creativity and a lot of coffee!
+            </p>
+            <div class="hero-cta">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="section-header fade-in">
+            <h2 class="section-title">Technical Skills</h2>
+            <p class="section-subtitle">My technical expertise spans multiple programming languages, frameworks, and tools</p>
+        </div>
+
+        <div class="skills-container">
+            <div class="skill-category fade-in">
+                <h3>Frontend Development</h3>
+                <div class="skill-item">
+                    <span>HTML/CSS</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="90"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span>JavaScript</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="85"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span>React.js</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="80"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span>Figma / UI&UX Design</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="75"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-category fade-in">
+                <h3>Backend Development</h3>
+                <div class="skill-item">
+                    <span>Python (Django / Flask)</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="85"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span>Node.js</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="78"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span>PHP / Laravel</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="72"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span>Stripe Integration</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="75"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-category fade-in">
+                <h3>Data, Cloud & Tools</h3>
+                <div class="skill-item">
+                    <span>MySQL / PostgreSQL</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="82"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span>Firebase / GCP</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="80"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span>Scikit-learn / Pandas / NumPy</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="70"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span>Salesforce / Git</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="72"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span>Android &amp; iOS Deployment</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="88"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-category fade-in">
+                <h3>Languages &amp; Soft Skills</h3>
+                <div class="skill-item">
+                    <span>English</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="95"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span>Kinyarwanda</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="100"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span>Swahili</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="85"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span>Communication &amp; Teamwork</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="95"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+        <div class="section-header fade-in">
+            <h2 class="section-title">Professional Experience</h2>
+            <p class="section-subtitle">My journey through various roles in technology and business</p>
+        </div>
+
+        <div class="timeline">
+
+            <!-- 1: UI/UX + Frontend Intern – Plug and Play Foundation -->
+            <div class="timeline-item slide-in-right">
+                <div class="timeline-content">
+                    <div class="timeline-date"></div>
+                    <div class="job-title">UI/UX Designer &amp; Frontend Developer Intern</div>
+                    <div class="company">Plug and Play Foundation | Sunnyvale, CA, USA</div>
+                    <div class="period" style="color: var(--accent); font-weight: 600; margin-bottom: 1rem;">February 2026 – May 2026</div>
+                    <div class="job-description">
+                        <ul>
+                            <li>Designed and implemented user interfaces for a health-tech platform, translating clinical workflows into intuitive web experiences.</li>
+                            <li>Collaborated with product and engineering teams to iterate on wireframes, prototypes, and production-ready components using Figma and React.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2: Software Dev Intern – Spiderbit Limited -->
+            <div class="timeline-item slide-in-left">
+                <div class="timeline-content">
+                    <div class="timeline-date"></div>
+                    <div class="job-title">Software Development Intern</div>
+                    <div class="company">Spiderbit Limited | Kigali, Rwanda</div>
+                    <div class="period" style="color: var(--accent); font-weight: 600; margin-bottom: 1rem;">April 2025 – July 2025</div>
+                    <div class="job-description">
+                        <ul>
+                            <li>Assisted in developing and maintaining web applications, ERP modules, and client platforms under guidance from senior developers.</li>
+                            <li>Wrote, tested, and improved code; troubleshot and debugged defects across multiple projects.</li>
+                            <li>Participated in sprint planning and review sessions, learning agile development processes.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 3: App Deployment Specialist – Invisible Technologies -->
+            <div class="timeline-item slide-in-right">
+                <div class="timeline-content">
+                    <div class="timeline-date"></div>
+                    <div class="job-title">App Deployment Specialist (Remote)</div>
+                    <div class="company">Invisible Technologies | San Francisco, CA, USA</div>
+                    <div class="period" style="color: var(--accent); font-weight: 600; margin-bottom: 1rem;">November 2023 – January 2025</div>
+                    <div class="job-description">
+                        <ul>
+                            <li>Configured and deployed 30+ mobile applications daily to Google Play Store and Apple App Store using Firebase, GCP, and Apple Developer tools.</li>
+                            <li>Integrated Stripe payment processing for 50+ iOS applications.</li>
+                            <li>Managed app signing keys, certificates, and security credentials across Android and iOS platforms.</li>
+                            <li>Ensured compliance with Google &amp; Apple policies and CCPA data protection regulations.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 4: Medical Interpreter – GLOBO Language Solutions -->
+            <div class="timeline-item slide-in-left">
+                <div class="timeline-content">
+                    <div class="timeline-date"></div>
+                    <div class="job-title">Medical Interpreter</div>
+                    <div class="company">GLOBO Language Solutions | Philadelphia, PA, USA</div>
+                    <div class="period" style="color: var(--accent); font-weight: 600; margin-bottom: 1rem;">November 2022 – November 2023</div>
+                    <div class="job-description">
+                        <ul>
+                            <li>Facilitated verbal communication between healthcare practitioners and patients via audio/video calls.</li>
+                            <li>Provided accurate translation of medical information between English, Kinyarwanda, and Swahili.</li>
+                            <li>Simplified complex medical terminology for better patient understanding and informed consent.</li>
+                            <li>Maintained strict confidentiality protocols in line with healthcare privacy standards.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 5: Sales & Marketing Officer – Touch Media Design -->
+            <div class="timeline-item slide-in-right">
+                <div class="timeline-content">
+                    <div class="timeline-date"></div>
+                    <div class="job-title">Sales and Marketing Officer</div>
+                    <div class="company">Touch Media Design Ltd | Kigali, Rwanda</div>
+                    <div class="period" style="color: var(--accent); font-weight: 600; margin-bottom: 1rem;">March 2020 – July 2021</div>
+                    <div class="job-description">
+                        <ul>
+                            <li>Offered strategic advice to build brand awareness and capture target markets.</li>
+                            <li>Identified new business opportunities and customers through proactive market monitoring.</li>
+                            <li>Developed and managed successful marketing sales pipelines and handled briefs, proposals, and contracts.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Education & Achievements Section -->
+    <section id="education">
+        <div class="section-header fade-in">
+            <h2 class="section-title">Education &amp; Achievements</h2>
+            <p class="section-subtitle">Academic background and certifications that shaped my skills</p>
+        </div>
+
+        <div class="timeline">
+
+            <div class="timeline-item fade-in">
+                <div class="timeline-content">
+                    <div class="timeline-date"></div>
+                    <div class="job-title">BSc (Hons) Computer Science</div>
+                    <div class="company">INES Ruhengeri | Rwanda</div>
+                    <div class="period" style="color: var(--accent); font-weight: 600; margin-bottom: 1rem;">Graduated — October 2025</div>
+                    <div class="job-description">
+                        <ul>
+                            <li>Completed a full honours degree in Computer Science with focus on software engineering, data structures, and web development.</li>
+                            <li>Developed multiple full-stack projects spanning healthcare, agriculture, and education domains.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline-item fade-in">
+                <div class="timeline-content">
+                    <div class="timeline-date"></div>
+                    <div class="job-title">AI Career Essentials Certificate</div>
+                    <div class="company">ALX Africa</div>
+                    <div class="period" style="color: var(--accent); font-weight: 600; margin-bottom: 1rem;">May – July 2024 (8 Weeks)</div>
+                    <div class="job-description">
+                        <ul>
+                            <li>Completed an intensive 8-week programme covering practical AI tools, prompt engineering, and leveraging AI for professional productivity.</li>
+                            <li>Gained hands-on experience applying AI solutions to real-world business and tech challenges.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="section-header fade-in">
+            <h2 class="section-title">My Projects</h2>
+            <p class="section-subtitle">A showcase of my development work and creative solutions</p>
+        </div>
+
+        <!-- 
+            HOW TO ADD VIDEOS:
+            - For a local video file: set data-type="video" and data-media="videos/your-file.mp4"
+              Replace the <img> src with a thumbnail image (or use a poster frame from the video).
+            - For a YouTube video: set data-type="youtube" and data-media="YOUR_YOUTUBE_VIDEO_ID"
+              e.g. data-media="dQw4w9WgXcQ" (the part after watch?v= in the URL)
+            - The play button overlay appears automatically for video/youtube cards.
+            - Keep data-type="image" for cards that still use screenshots.
+        -->
+        <div class="projects-container">
+
+            <div class="project-card fade-in">
+               <div class="project-image media-trigger" data-type="image" data-media="images/demoXana.png">
+                    <img src="images/demoXana.png" alt="Demo Xana">
+                    
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">XanaHealth — Patient Management System</h3>
+                    <p class="project-description">
+                        A web-based patient and hospital management system for managing electronic health records
+                        and medical insurance claims. Built as frontend developer.
+                    </p>
+                   
+                    <div class="project-tech">
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">HTML/CSS</span>
+                        <span class="tech-tag">JavaScript</span>
+                    </div>
+                    <div style="margin-top:35px;">
+                         <a href="https://xanahealth-platform.github.io/XanaHealth/" target="_blank" rel="noopener noreferrer" style="text-decoration:none; color:blueviolet">Live Link</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card fade-in">
+               <div class="project-image media-trigger" data-type="video" data-media="videos/LMS.mp4">
+    <video src="videos/LMS.mp4" muted preload="metadata" style="width:100%;height:100%;object-fit:cover;pointer-events:none;"></video>
+    <div class="media-overlay"><span class="play-btn">▶</span></div>
+</div>
+                <div class="project-content">
+                    <h3 class="project-title">Learning Management System</h3>
+                    <p class="project-description">
+                        An edutainment platform for children with learning disabilities, featuring assignments,
+                        progress tracking, and interactive quizzes. Built for scalability and accessibility.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Django</span>
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">Node.js</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card fade-in">
+             <div class="project-image media-trigger" data-type="video" data-media="videos/traffic_control.mp4">
+    <video src="videos/traffic_control.mp4" muted preload="metadata" style="width:100%;height:100%;object-fit:cover;pointer-events:none;"></video>
+    <div class="media-overlay"><span class="play-btn">▶</span></div>
+</div>
+                <div class="project-content">
+                    <h3 class="project-title">Traffic Data Analytics Platform</h3>
+                    <p class="project-description">
+                        An intelligent web-based traffic monitoring platform that avoids congestion and optimises
+                        routes using real-time data analysis and machine learning predictions.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Django</span>
+                        <span class="tech-tag">PostgreSQL</span>
+                        <span class="tech-tag">Scikit-learn</span>
+                        <span class="tech-tag">Folium</span>
+                        <span class="tech-tag">OpenStreetMap API</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card fade-in">
+               <div class="project-image media-trigger" data-type="video" data-media="videos\POS_ACCOUNTING_SYSTEM.mp4">
+    <video src="videos\POS_ACCOUNTING_SYSTEM.mp4" muted preload="metadata" style="width:100%;height:100%;object-fit:cover;pointer-events:none;"></video>
+    <div class="media-overlay"><span class="play-btn">▶</span></div>
+</div>
+                <div class="project-content">
+                    <h3 class="project-title">POS Accounting System</h3>
+                    <p class="project-description">
+                        A centralised solution for tracking and managing company inventory, incorporating transaction
+                        history, account management, and financial planning tools.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">PHP</span>
+                        <span class="tech-tag">MySQL</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">HTML/CSS</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card fade-in">
+             <div class="project-image media-trigger" data-type="video" data-media="videos/Tasks.mp4">
+    <video src="videos/Tasks.mp4" muted preload="metadata" style="width:100%;height:100%;object-fit:cover;pointer-events:none;"></video>
+    <div class="media-overlay"><span class="play-btn">▶</span></div>
+</div>
+                <div class="project-content">
+                    <h3 class="project-title">Task Management System</h3>
+                    <p class="project-description">
+                        A collaborative task management application with team features, deadline tracking,
+                        and progress visualisation. Includes drag-and-drop functionality and real-time updates.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">PHP</span>
+                        <span class="tech-tag">MySQL</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">HTML/CSS</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card fade-in">
+                <div class="project-image media-trigger" data-type="image" data-media="images/demoLivestock.png">
+                    <img src="images/demoLivestock.png" alt="Demo Livestock">
+                    
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Livestock Health Advisor</h3>
+                    <p class="project-description">
+                        An AI-powered solution to help farmers and veterinarians diagnose and manage livestock
+                        diseases efficiently, improving animal health and reducing agricultural losses.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Flask</span>
+                        <span class="tech-tag">Bootstrap</span>
+                        <span class="tech-tag">JavaScript</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+   
+
+    <!-- Footer -->
+    <footer>
+           <div class="contact-info fade-in">
+                <h3 style="color: var(--primary); margin-bottom: 2rem;">Let's Connect</h3>
+
+                <div class="contact-item">
+                    <div class="contact-icon">✉</div>
+                    <div>
+                        <strong>Email</strong><br>
+                        <a href="mailto:mutesifaiza17@gmail.com" style="color: var(--primary);">mutesifaiza17@gmail.com</a>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <div class="contact-icon">📞</div>
+                    <div>
+                        <strong>Phone</strong><br>
+                        <a href="tel:+250786061493" style="color: var(--primary);">+250 786 061 493</a>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+               <div class="contact-icon">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="white">
+    <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 
+    0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695
+    -.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99
+    .105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225
+    -.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405
+    c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 
+    0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 
+    0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/>
+  </svg>
+</div>
+                    <div>
+                        <strong>GitHub</strong><br>
+                        <a href="https://github.com/faizaijja" target="_blank" style="color: var(--primary);">github.com/faizaijja</a>
+                    </div>
+                </div>
+            </div>
+        <p>&copy; 2026 Faiza Mutesi. All rights reserved</p>
+    </footer>
+
+    <!-- Media Modal -->
+    <div id="mediaModal" class="modal">
+        <button class="close" id="modalClose" aria-label="Close">&times;</button>
+        <div class="modal-content" id="modalContent">
+            <!-- filled by JS -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
