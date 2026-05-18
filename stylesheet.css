@@ -790,6 +790,11 @@ body.dark footer {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+   .play-btn {
+    width: 56px;
+    height: 56px;
+    font-size: 2rem;
+  }
   .timeline {
   grid-template-columns: 1fr;
 }
@@ -928,9 +933,10 @@ body.dark footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  opacity: 0;
+  opacity: 1;                
   transition: opacity 0.3s ease;
 }
+
 
 .project-card:hover .media-overlay {
   opacity: 1;
