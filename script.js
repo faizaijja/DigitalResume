@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const typingText = document.getElementById('typing-text');
     const texts = [
         "Software Engineer",
-        "Technical Solutions"
+        "Technical Solutions",
         "Product & UX"
     ];
     
