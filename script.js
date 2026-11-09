@@ -33,8 +33,9 @@ document.addEventListener('DOMContentLoaded', function() {
     // Typing Animation
     const typingText = document.getElementById('typing-text');
     const texts = [
-        "Full-Stack Developer",
-        "Tech Enthusiast"
+        "Software Engineer",
+        "Technical Solutions"
+        "Product & UX"
     ];
     
     let textIndex = 0;
@@ -446,6 +447,6 @@ window.closeMobileMenu = function() {
 function downloadResume() {
     const link = document.createElement('a');
     link.href = 'Resume.pdf';
-    link.download = 'Faiza-Mutesi-Resume.pdf';
+    link.download = 'Faiza Mutesi_CV.pdf';
     link.click();
 }
